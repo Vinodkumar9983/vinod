@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact_styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar (Add to your existing navigation) -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below to get in touch with us.</p>
+            
+            <form action="submit_contact.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required placeholder="Enter your message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer (Add to your existing footer) -->
+    <footer>
+        <p>&copy; 2025 Your Website. All Rights Reserved.</p>
+    </footer>
+    <!-- WhatsApp Button -->
+<a href="https://wa.me/7877709258?text=Hello!%20I%20need%20assistance." target="_blank" class="whatsapp-btn">
+    <img src="C:\Users\Lenovo\Downloads\pngtree-whatsapp-icon-png-image_3584845.jpg" alt="WhatsApp" />
+    Chat with us on WhatsApp
+</a>
+
+</body>
+</html>
